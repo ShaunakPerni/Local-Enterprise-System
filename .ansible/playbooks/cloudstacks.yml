@@ -1,0 +1,4 @@
+---
+- name: "Cloudstacks Installation"
+  hosts: "workers"
+  gather_facts: true

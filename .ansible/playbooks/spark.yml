@@ -1,0 +1,4 @@
+---
+- name: "Spark Installation"
+  hosts: "workers"
+  gather_facts: true

@@ -1,0 +1,4 @@
+---
+- name: "Hadoop Installation"
+  hosts: "workers"
+  gather_facts: true
