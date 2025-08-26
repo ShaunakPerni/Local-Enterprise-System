@@ -1,9 +1,0 @@
-- name: Install Git on lab nodes
-  hosts: nodes
-  become: true
-  tasks:
-
-    - name: Install Git package
-      package:
-        name: git
-        state: present

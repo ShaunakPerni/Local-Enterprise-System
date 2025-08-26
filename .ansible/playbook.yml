@@ -1,0 +1,4 @@
+---
+- name: "Local Cloud"
+  hosts: localhost
+  gather_facts: true

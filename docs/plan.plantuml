@@ -1,0 +1,12 @@
+@startuml "Big Data Processing Lab Setup"
+allowmixing
+
+node Master as "Master Server"{
+    component "CloudStack Coordinator" as cloudstackCoordinator
+    database "Cloudstack MySQL Database" as cloudstackDatabase
+    component "Hadoop NameNode" as hadoopNameNode
+    component "Spark Master" as sparkMaster
+    component "MinIO Master" as minioMaster
+
+}
+@enduml
